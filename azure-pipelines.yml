@@ -4,6 +4,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+steps:
 - script: |
     terraform --version
   displayName: 'Run a multi-line script'
