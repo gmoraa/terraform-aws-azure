@@ -27,3 +27,13 @@ variable "server_name" {
   default       = ""
   description   = "Server name."
 }
+
+variable "vpc_id" {
+  type          = string
+  description   = "VPC id."
+}
+
+variable "subnet_id" {
+  type          = string
+  description   = "Server subnet id."
+}
